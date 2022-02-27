@@ -69,10 +69,7 @@ h1{
   transition: 0.4s;
 }
 
-.hamburger:hover span:nth-child(2){
-  transform: translateX(10px);
-  background-color: var(--primary);
-}
+
 
 .hamburger.is-active span:nth-child(1){
   transform: translate(0px, -2px) rotate(45deg);
