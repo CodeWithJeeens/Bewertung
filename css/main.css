@@ -11,6 +11,15 @@
   box-sizing: border-box;
   font-family: 'Fira sans', sans-serif;
 }
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+p{
+  margin: auto;
+  width: 90%;
+}
 
 .cotainer{
   max-width: 1280px;
@@ -143,6 +152,39 @@ h1{
 	background-color: #24104f;
 }
 
+section {
+  height: 100vh;
+  width: 100%;
+}
+
+#Home{
+  background-color: blue;
+  color: red;
+  text-align: center;
+  padding-top: 50%;
+}
+
+#About{
+  background-color: green;
+  color: white;
+  text-align: center;
+  padding-top: 50%;
+}
+
+.profil img{
+  height: 45%;
+  width: 45%;
+  padding-top: 10%;
+  padding-bottom: 5%;
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
+
+
+
+/* IDEA: mobile Interface */
+
 @media (min-width: 768px) {
   .hamburger{
     display: none;
@@ -152,5 +194,28 @@ h1{
   }
   .mobile-nav {
   display: none;
-}
+  }
+
+  #Home{
+    background-color: blue;
+    color: red;
+    text-align: center;
+    padding-top: 50%;
+  }
+
+  #About{
+    background-color: green;
+    color: white;
+    text-align: center;
+    padding-top: 50%;
+  }
+
+  .profil img{
+    height: 45%;
+    width: 45%;
+    padding-top: 10%;
+    padding-bottom: 5%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }
